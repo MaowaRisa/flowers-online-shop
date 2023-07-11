@@ -42,7 +42,7 @@ header{
     margin-bottom: 30px;
 
 }
-.featured-container, .commitments-container, .social-container{
+.featured-container, .commitments-container, .social-container, .newsletter{
     max-width: 1440px;
     margin: 170px auto;
     align-items: center;
@@ -174,4 +174,67 @@ header{
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+/* Newsletter */
+.newsletter{
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 150px;
+}
+.newsletter > h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.newsletter > p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.newsletter-form input[type=text]{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 20px;
+}
+.newsletter-form input[type=text]::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Footer Part */
+footer{
+    background: #111010;
+    text-align: center;
+    padding: 128px 200px;
+}
+footer > h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer > p{
+    max-width: 600px;
+    margin: 30px auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+footer > small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
