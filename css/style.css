@@ -13,6 +13,9 @@
     font-size: 20px;
     font-weight: 700;
 }
+.text-style-red{
+    color: #E55473;
+}
 header{
     background-color: rgb(229, 84, 115, 0.1);
 }
@@ -39,7 +42,7 @@ header{
     margin-bottom: 30px;
 
 }
-.featured-container, .commitments-container{
+.featured-container, .commitments-container, .social-container{
     max-width: 1440px;
     margin: 170px auto;
     align-items: center;
@@ -123,4 +126,52 @@ header{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+}
+/* Deals Container */
+.deals-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 100px;
+}
+.deal-info{
+    text-align: center;
+}
+.deal-info > h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.deal-info > p{
+    max-width: 600px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/* Social Instagram Images */
+.social-container{
+    text-align: center;
+}
+.social-container > h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.social-container > p{
+    max-width: 600px;
+    margin: 35px auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.social-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
