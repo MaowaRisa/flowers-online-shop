@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+header{
+    background-color: rgb(229, 84, 115, 0.1);
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.top-info{
+    max-width: 700px;
+}
+.top-info-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.top-info-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.featured-container{
+    max-width: 1440px;
+    margin: 170px auto;
+    align-items: center;
+}
+.featured-container h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.featured-container p{
+    max-width: 600px;
+    margin: 1px auto;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.featured-flowers{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.color-one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.color-two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.color-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured-details{
+    border-radius: 300px 300px 0px 0px;
+    flex-basis: 460px;
+    padding: 100px 75px 0 75px;
+}
+.featured-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+.photo{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
