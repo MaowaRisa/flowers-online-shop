@@ -42,7 +42,7 @@ header{
     margin-bottom: 30px;
 
 }
-.featured-container, .commitments-container, .social-container, .newsletter{
+.featured-container, .commitments-container, .social-container, .newsletter, .reviews-container{
     max-width: 1440px;
     margin: 170px auto;
     align-items: center;
@@ -237,4 +237,67 @@ footer > small{
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
+}
+/* Review Design */
+.reviews-container{
+    text-align: center;
+}
+.reviews-container > h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.reviews-container > p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFF;
+}
+.review-item{
+    background-color: rgb(229, 84, 115, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+.review-item > p:first-child{
+    text-align: left;
+}
+.fa-solid, .fa-regular{
+    font-size: 20px;
+    color: #E55473;
+}
+.review-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.reviewed-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.reviewed-person-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80px;
+    border: 5px solid rgb(229, 84, 115, 0.5);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px #111010;
+}
+.reviewed-person-image img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
 }
